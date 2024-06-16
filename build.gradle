@@ -1,0 +1,34 @@
+plugins {
+    id 'java-library'
+}
+
+apply from: "https://raw.githubusercontent.com/refinedmods/refinedarchitect/v0.13.4/helper.gradle"
+
+group = 'com.refinedmods.refinedstorage'
+
+forgeProject("refinedstorage_curios_integration")
+
+archivesBaseName = 'refinedstorage-curios-integration'
+
+repositories {
+    maven {
+        url = uri("https://maven.pkg.github.com/refinedmods/refinedstorage2")
+        credentials {
+            username = "anything"
+            password = "\u0067hp_oGjcDFCn8jeTzIj4Ke9pLoEVtpnZMP4VQgaX"
+        }
+    }
+    maven {
+        name = 'Curios'
+        url = "https://maven.theillusivec4.top/"
+    }
+}
+
+dependencies {
+    api "com.refinedmods.refinedstorage2:refinedstorage2-platform-forge:${refinedstorageVersion}"
+    runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curiosVersion}"
+    compileOnlyApi "top.theillusivec4.curios:curios-neoforge:${curiosVersion}:api"
+}
+
+enablePublishing()
+enableSonarQube("refinedmods_refinedstorage-curios-integration")
