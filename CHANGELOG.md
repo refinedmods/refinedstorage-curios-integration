@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.0] - 2024-06-16
+
 ### Added
 
 -   Initial release.
+
+[Unreleased]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.1.0...HEAD
+
+[0.1.0]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/d93126099d873e916194636f8736536feef3fc11...v0.1.0
