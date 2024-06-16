@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+issueTrackerURL = "https://github.com/refinedmods/refinedstorage-curios-integration"
+license = "MIT"
+[[mods]]
+modId = "refinedstorage_curios_integration"
+version = "${version}"
+displayName = "Refined Storage - Curios Integration"
+displayURL = "https://github.com/refinedmods/refinedstorage-curios-integration"
+authors = "Refined Mods"
+description = '''
+Curios integration for Refined Storage.
+'''
+[[dependencies.refinedstorage_curios_integration]]
+modId = "refinedstorage2"
+type = "required"
+versionRange = "2.0.0-milestone.3.11"
+side = "BOTH"
+[[dependencies.refinedstorage_curios_integration]]
+modId = "curios"
+type = "required"
+versionRange = "[7.1-)"
+side = "BOTH"
