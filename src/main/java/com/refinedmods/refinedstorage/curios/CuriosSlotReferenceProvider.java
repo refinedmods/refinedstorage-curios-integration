@@ -1,11 +1,12 @@
 package com.refinedmods.refinedstorage.curios;
 
+import com.refinedmods.refinedstorage.common.api.support.slotreference.SlotReference;
+import com.refinedmods.refinedstorage.common.api.support.slotreference.SlotReferenceProvider;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import com.refinedmods.refinedstorage2.platform.api.support.network.bounditem.SlotReference;
-import com.refinedmods.refinedstorage2.platform.api.support.network.bounditem.SlotReferenceProvider;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import top.theillusivec4.curios.api.CuriosApi;

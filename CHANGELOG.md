@@ -7,12 +7,21 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-02-16
+
+### Changed
+
+-   Support for Refined Storage v2.0.0-milestone.4.13.
+-   The Portable Grid is now also a valid Curios item.
+
 ## [0.1.0] - 2024-06-16
 
 ### Added
 
 -   Initial release.
 
-[Unreleased]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.2.0...HEAD
+
+[0.2.0]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.1.0...v0.2.0
 
 [0.1.0]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/d93126099d873e916194636f8736536feef3fc11...v0.1.0

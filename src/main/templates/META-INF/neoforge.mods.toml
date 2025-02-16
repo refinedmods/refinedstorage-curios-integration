@@ -12,12 +12,12 @@ description = '''
 Curios integration for Refined Storage.
 '''
 [[dependencies.refinedstorage_curios_integration]]
-modId = "refinedstorage2"
+modId = "refinedstorage"
 type = "required"
-versionRange = "2.0.0-milestone.3.11"
+versionRange = "2.0.0-milestone.4.13"
 side = "BOTH"
 [[dependencies.refinedstorage_curios_integration]]
 modId = "curios"
 type = "required"
-versionRange = "[7.1,)"
+versionRange = "[9.2,)"
 side = "BOTH"
