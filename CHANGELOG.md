@@ -7,6 +7,11 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+-   Support for Refined Storage v2.0.0-milestone.4.13.
+-   The Portable Grid is now also a valid Curios item.
+
 ## [0.1.0] - 2024-06-16
 
 ### Added

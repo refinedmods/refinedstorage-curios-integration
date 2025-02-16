@@ -2,6 +2,7 @@
 @FieldsAndMethodsAreNonnullByDefault
 package com.refinedmods.refinedstorage.curios;
 
+import com.refinedmods.refinedstorage.api.core.FieldsAndMethodsAreNonnullByDefault;
+
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import com.refinedmods.refinedstorage2.api.core.FieldsAndMethodsAreNonnullByDefault;

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "refinedstorage:portable_grid",
+    "refinedstorage:creative_portable_grid",
+    "refinedstorage:wireless_grid",
+    "refinedstorage:creative_wireless_grid"
+  ]
+}
