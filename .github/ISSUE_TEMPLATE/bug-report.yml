@@ -40,7 +40,7 @@ body:
     -   type: input
         id: modloader-version
         attributes:
-            label: What NeoForge or Fabric version is this happening on?
+            label: What NeoForge version is this happening on?
         validations:
             required: true
     -   type: input
