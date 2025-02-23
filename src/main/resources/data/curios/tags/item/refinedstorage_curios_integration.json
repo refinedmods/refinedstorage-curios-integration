@@ -4,6 +4,14 @@
     "refinedstorage:portable_grid",
     "refinedstorage:creative_portable_grid",
     "refinedstorage:wireless_grid",
-    "refinedstorage:creative_wireless_grid"
+    "refinedstorage:creative_wireless_grid",
+    {
+      "id": "refinedstorage_quartz_arsenal:wireless_crafting_grid",
+      "required": false
+    },
+    {
+      "id": "refinedstorage_quartz_arsenal:creative_wireless_crafting_grid",
+      "required": false
+    }
   ]
 }
