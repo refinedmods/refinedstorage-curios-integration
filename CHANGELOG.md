@@ -7,6 +7,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-03-28
+
 ### Fixed
 
 -   Support for Refined Storage v2.0.0-beta.1.
@@ -30,7 +32,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 -   Initial release.
 
-[Unreleased]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v1.0.0...HEAD
+
+[1.0.0]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.3.0...v1.0.0
 
 [0.3.0]: https://github.com/refinedmods/refinedstorage-curios-integration/compare/v0.2.0...v0.3.0
 
