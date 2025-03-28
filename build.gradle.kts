@@ -23,6 +23,8 @@ refinedarchitect {
     sonarQube("refinedmods_refinedstorage-curios-integration", "refinedmods")
     publishing {
         maven = true
+        curseForge = "1230729"
+        modrinth = "s6zjL86N"
     }
 }
 
