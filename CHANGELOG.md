@@ -10,6 +10,7 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 
 -   Ported to Minecraft 26.1.2.
+-   Support for the Wireless Autocrafting Monitor.
 
 ## [1.0.0] - 2025-03-28
 
