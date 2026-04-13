@@ -14,10 +14,10 @@ Curios integration for Refined Storage.
 [[dependencies.refinedstorage_curios_integration]]
 modId = "refinedstorage"
 type = "required"
-versionRange = "2.0.0-beta.1"
+versionRange = "[3.0.0-beta.1,)"
 side = "BOTH"
 [[dependencies.refinedstorage_curios_integration]]
 modId = "curios"
 type = "required"
-versionRange = "[9.2,)"
+versionRange = "[15.0.0-beta.1,)"
 side = "BOTH"

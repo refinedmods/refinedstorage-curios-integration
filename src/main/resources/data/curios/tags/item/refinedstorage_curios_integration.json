@@ -5,6 +5,8 @@
     "refinedstorage:creative_portable_grid",
     "refinedstorage:wireless_grid",
     "refinedstorage:creative_wireless_grid",
+    "refinedstorage:wireless_autocrafting_monitor",
+    "refinedstorage:creative_wireless_autocrafting_monitor",
     {
       "id": "refinedstorage_quartz_arsenal:wireless_crafting_grid",
       "required": false

@@ -1,14 +1,14 @@
 plugins {
-    id("refinedarchitect.root")
-    id("refinedarchitect.neoforge")
+    id("com.refinedmods.refinedarchitect.root")
+    id("com.refinedmods.refinedarchitect.neoforge")
 }
 
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/refinedmods/refinedstorage2")
-        credentials {
-            username = "anything"
-            password = "\u0067hp_oGjcDFCn8jeTzIj4Ke9pLoEVtpnZMP4VQgaX"
+        name = "Refined Storage"
+        url = uri("https://maven.creeperhost.net")
+        content {
+            includeGroup("com.refinedmods.refinedstorage")
         }
     }
     maven {
@@ -24,7 +24,9 @@ refinedarchitect {
     publishing {
         maven = true
         curseForge = "1230729"
+        curseForgeRequiredDependencies = listOf("refined-storage", "curios")
         modrinth = "s6zjL86N"
+        modrinthRequiredDependencies = listOf("refined-storage", "curios")
     }
 }
 
