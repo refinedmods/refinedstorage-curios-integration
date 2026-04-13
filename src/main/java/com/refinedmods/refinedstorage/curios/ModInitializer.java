@@ -2,7 +2,7 @@ package com.refinedmods.refinedstorage.curios;
 
 import com.refinedmods.refinedstorage.common.api.RefinedStorageApi;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -19,7 +19,7 @@ public final class ModInitializer {
     @SubscribeEvent
     public static void onCommonSetup(final FMLCommonSetupEvent e) {
         RefinedStorageApi.INSTANCE.getSlotReferenceFactoryRegistry().register(
-            ResourceLocation.fromNamespaceAndPath(ID, "curios"),
+            Identifier.fromNamespaceAndPath(ID, "curios"),
             CuriosSlotReferenceFactory.INSTANCE
         );
         RefinedStorageApi.INSTANCE.addSlotReferenceProvider(new CuriosSlotReferenceProvider());
