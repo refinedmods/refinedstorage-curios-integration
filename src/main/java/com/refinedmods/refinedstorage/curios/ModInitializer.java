@@ -18,10 +18,10 @@ public final class ModInitializer {
 
     @SubscribeEvent
     public static void onCommonSetup(final FMLCommonSetupEvent e) {
-        RefinedStorageApi.INSTANCE.getSlotReferenceFactoryRegistry().register(
+        RefinedStorageApi.INSTANCE.getPlayerSlotReferenceFactories().register(
             Identifier.fromNamespaceAndPath(ID, "curios"),
-            CuriosSlotReferenceFactory.INSTANCE
+            CuriosPlayerSlotReference.STREAM_CODEC
         );
-        RefinedStorageApi.INSTANCE.addSlotReferenceProvider(new CuriosSlotReferenceProvider());
+        RefinedStorageApi.INSTANCE.addPlayerSlotReferenceProvider(new CuriosPlayerSlotReferenceProvider());
     }
 }
